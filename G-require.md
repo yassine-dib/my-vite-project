@@ -18,7 +18,7 @@
 - ~~At least one component must receive, and use, at least one plug (via propsthe key)~~
 - ~~The web application must use a Web App Manifest, which must be generated via Vite's PWA plugin - the web application must, via this manifest, have its own app name, its own theme color, and its own icons (including a favicon)~~
 - ~~The web application must work offline and information (including the information retrieved with the GET calls) must be visible even when the user is offline - use a Service Worker for this, which is generated via Vite's PWA plugin~~
-- The source code for the project is published on GitHub (or similar)~~
+- ~~The source code for the project is published on GitHub (or similar)~~
 - The web application should be published on GitHub Pages (or similar)~~
 - The submission must consist of [project Clone URL] and [the published project's URL]~~
 - ~~If your repository is private, invite the user "jonkri" on GitHub / GitLab~~
