@@ -1,7 +1,7 @@
 ## the following requirements must be met
 
 - ~~Create a dynamic Vite web application.~~
-- u kan start from the project folder that is generated through (npx degit jonkri/vite-vue-template#main my-project).~~
+- ~~u can start from the project folder that is generated through (npx degit jonkri/vite-vue-template#main my-project).~~
 
 - ~~Web calls, information from one or more web services~~
 - ~~Avoid CORS problems and use HTTPS, for the application to work well as published;~~
@@ -19,6 +19,6 @@
 - ~~The web application must use a Web App Manifest, which must be generated via Vite's PWA plugin - the web application must, via this manifest, have its own app name, its own theme color, and its own icons (including a favicon)~~
 - ~~The web application must work offline and information (including the information retrieved with the GET calls) must be visible even when the user is offline - use a Service Worker for this, which is generated via Vite's PWA plugin~~
 - ~~The source code for the project is published on GitHub (or similar)~~
-- The web application should be published on GitHub Pages (or similar)~~
-- The submission must consist of [project Clone URL] and [the published project's URL]~~
+- ~~The web application should be published on GitHub Pages (or similar)~~ https://github.com/yassine-dib/my-vite-project
+- ~~The submission must consist of [project Clone URL] and [the published project's URL]~~ https://yassine-dib.github.io/my-vite-project/
 - ~~If your repository is private, invite the user "jonkri" on GitHub / GitLab~~

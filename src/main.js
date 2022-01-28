@@ -1,7 +1,11 @@
-import { createApp } from 'vue'
+import { registerSW } from "virtual:pwa-register";
 
-import App from './App.vue'
+import { createApp } from "vue";
 
-import router from './router'
+import App from "./App.vue";
 
-createApp(App).use(router).mount('#app')
+import router from "./router";
+
+createApp(App).use(router).mount("#app");
+
+registerSW();

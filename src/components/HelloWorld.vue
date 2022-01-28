@@ -1,23 +1,23 @@
 <script>
-import CounterBotona from './CounterBotona.vue';
+import CounterBotona from "./CounterBotona.vue";
 export default {
   Components: {
-    CounterBotona
+    CounterBotona,
   },
   props: {
-    msg: String
-  }
-}
-
+    msg: String,
+  },
+};
 </script>
 
 <template>
   <CounterBotona />
   <img alt="walo" src="../assets/volvo4.jpg" />
+  <img alt="walo" src="../assets/volvo111.jpg" />
   <p>{{ msg }}</p>
 </template>
 
-<style >
+<style>
 p {
   font-weight: bold;
 }

@@ -18,10 +18,10 @@ export default {
   data() {
     return {
       products: [
-        { name: "Banana Skin", price: 20 },
-        { name: "Shiny Star", price: 40 },
-        { name: "Green Shells", price: 60 },
-        { name: "Red Shells", price: 80 },
+        { name: "Volvo dulix-Skin", price: 289990 },
+        { name: "Volvo R-Star", price: 478000 },
+        { name: "Volvo R-Shells", price: 659000 },
+        { name: "Volvo Inscreption", price: 839000 },
       ],
     };
   },
@@ -50,7 +50,7 @@ export default {
     <product-list-two :products="products"></product-list-two>
   </div>
 
-  <hello-world msg=" example test" />
+  <hello-world msg=" Bygg din Volvo" />
   <p>
     Bygg din Volvo exakt som du vill ha den. Välj modell och utförande i
     konfiguratorn. Upptäck nya bilmodeller från Volvo och hitta din närmaste

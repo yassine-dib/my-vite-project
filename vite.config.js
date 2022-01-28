@@ -3,12 +3,13 @@ import vue from "@vitejs/plugin-vue";
 import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
+
+// Webbapplikationen ska fungera offline och  informationen som hämtats med GET-anropen gå att se även när användaren är offline
 export default defineConfig({
   base: "/my-vite-project/",
   plugins: [
     vue(),
     VitePWA({
-      // The web application must use a Web App Manifest, which must be generated via Vite's PWA plugin
       includeAssets: [
         "favicon.svg",
         "favicon.ico",
@@ -41,8 +42,19 @@ export default defineConfig({
       },
     }),
   ],
+
+  // generate manifest.json in outDir
   build: {
-    // generate manifest.json in outDir
     manifest: true,
+  },
+
+  // Caching av webbanrop
+  workbox: {
+    runtimeCaching: [
+      {
+        handler: "NetworkFirst",
+        urlPattern: `https://api.github.com/users/repos`,
+      },
+    ],
   },
 });
