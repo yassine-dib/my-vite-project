@@ -1,12 +1,10 @@
 <script>
 export default {
-  // v-module
-
   data() {
     return {
       counter: 0,
       el: "...",
-      checkedNames: [],
+      checkedNames: [], // v-model
     };
   },
   methods: {
@@ -20,7 +18,7 @@ export default {
 <template>
   <input @click="increase" type="button" :value="counter" />
   <input class="btn btn-primary" type="button" value="get rebos" />
-  <!-- v-module -->
+  <!--in this code i used v-model -->
   <div class="cars">
     <ul>
       <li>
@@ -51,7 +49,7 @@ export default {
         <label for="xc40">volvo xc40 electric</label>
       </li>
     </ul>
-    <span>The volove that you that you checked is : {{ checkedNames }}</span>
+    <span>The volvo That You Checked Is : {{ checkedNames }}</span>
   </div>
 </template>
 
@@ -64,11 +62,9 @@ export default {
 }
 
 .cars ul {
-}
-
-.cars ul li {
-}
-
-.cars span {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+  font-size: 24px;
 }
 </style>

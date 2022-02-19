@@ -13,6 +13,8 @@ export default {
   },
 };
 </script>
+<!-- en komponent använder Sass, via style-elementet -->
+
 <style scoped lang="scss">
 $bgcolor: lightblue;
 $textcolor: darkblue;
