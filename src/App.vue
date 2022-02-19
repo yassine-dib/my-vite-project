@@ -4,7 +4,7 @@ import WebCalls from "./components/WebCalls.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import ProductListOne from "./components/ProductListOne.vue";
 import ProductListTwo from "./components/ProductListTwo.vue";
-
+import FooterSection from "./components/FooterSection.vue";
 export default {
   components: {
     "product-list-one": ProductListOne,
@@ -13,6 +13,7 @@ export default {
     "web-calls": WebCalls,
     "counter-botona": CounterBotona,
     "hello-world": HelloWorld,
+    "footer-section": FooterSection,
   },
   name: "app",
   data() {
@@ -62,6 +63,7 @@ export default {
   <main>
     <router-view />
   </main>
+  <footer-section />
 </template>
 
 <style>
